@@ -1,8 +1,8 @@
 # The World, Checked — Sunday 22 November 2026
 
-[![make.fun bounty](https://img.shields.io/badge/make.fun-news--image--20261122-blue)](https://make.fun/bounty/news-image-20261122)
-[![Prize $100](https://img.shields.io/badge/prize-%24100-green)](https://make.fun/bounty/news-image-20261122)
-[![License MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![make.fun bounty](https://make.fun/badge/news-image-20261122.svg)](https://make.fun/bounty/news-image-20261122)
+[![rank](https://make.fun/badge/news-image-20261122/oraybora-source/news-image-20261122-v1/rank.svg)](https://make.fun/bounty/news-image-20261122)
+[![reward](https://make.fun/badge/news-image-20261122/oraybora-source/news-image-20261122-v1/reward.svg)](https://make.fun/bounty/news-image-20261122)
 
 One image that sums up the world's news of **Sunday 22 November 2026**:
 13 verified stories from 7 regions, a UTC timeline of the day, the day's
