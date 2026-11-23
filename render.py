@@ -161,28 +161,20 @@ STORIES = [
 ]
 
 MORE = [
-    "Sparta II still burning in the Gulf of Finland, a day after a drone hit the sanctioned Russian cargo ship.",
-    "FBI says its crime database was breached; a hacker claims 8.4m records for sale.",
-    "Nottingham Forest beat Hull 1–0; Forest climb off the foot of the Premier League table.",
-    "Dortmund thump Leipzig 6–0 in the Bundesliga; Kane strikes twice for Bayern.",
-    "India and the EU close a free-trade deal after 18 years of talks.",
-    "The WHO names a new virus variant; a fast-spreading strain is under watch.",
-    "A 7.2 quake shakes Maluku; no casualties reported.",
-    "Australia's dollar slips below 65 US cents; shares end lower.",
-    "A rare meteor shower peaks tonight; clear skies forecast across Europe.",
-    "FIFA confirms 2026 World Cup final will be held in New York.",
-    "Haiti: Salvadorans killed in a blast — the first official deaths since deployment.",
-    "Monash researchers trial a new malaria vaccine; early results promising.",
-    "New Zealand's house prices fall for a fifth month; buyers wait.",
-    "The UK's first driverless bus service starts in Edinburgh.",
-    "A record 1.2m people visit the Louvre in October.",
-    "The world's oldest person turns 116 in Japan.",
+    "Sparta II still smouldering in the Gulf of Finland, a day after a drone strike.",
+    "Gaza: an IDF strike in the north leaves one person critically hurt.",
+    "Lebanon's army arrests three over 264 kg of explosives smuggled from Syria.",
+    "Poland reveals Russia twice tried to kill a Ukrainian-American rapper; Denmark expelled a Russian official.",
+    "New Zealand: one killed, four hurt as a house slips off its supports in Ruatōria.",
+    "NFL Sunday: Cowboys 51–30 Titans; Panthers 35–33 Ravens.",
+    "Football: Barcelona come back from 2–0 down to beat Villarreal 3–2.",
+    "Australia's dollar tipped to rebound against the Kiwi after its worst month since 2022.",
 ]
 
 TIMELINE = [
-    ("00:56", "BepiColombo confirmed"),
     ("00:00–02:30", "Khartoum drones"),
-    ("~12:30", "Nepal PM in Delhi"),
+    ("00:56", "BepiColombo confirmed"),
+    ("~09:45", "Nepal PM lands in Delhi"),
     ("16:30", "Liverpool–Man Utd KO"),
     ("~17:00", "COP31: no deal"),
 ]
@@ -657,8 +649,8 @@ def draw_card(draw, x0, y0, w, h, st):
 
 # ---------------------------------------------------------------- map
 PINS = [  # lon, lat, n, dx, dy (offset of the numbered pin from true spot)
-    (30.7, 36.9, 1, 0, -15), (50.6, 26.2, 2, 12, -13),
-    (30.3, 50.8, 3, -2, -15), (106.4, -6.4, 5, 0, 13),
+    (30.7, 36.9, 1, -16, -10), (50.6, 26.2, 2, 12, -13),
+    (30.3, 50.8, 3, 16, -12), (106.4, -6.4, 5, 0, 13),
     (-3.0, 53.4, 6, -16, -6), (77.2, 28.6, 7, 10, -13),
     (35.2, 31.9, 8, 2, 15), (32.5, 15.6, 9, -14, 9),
     (-94.6, 39.1, 10, 0, -15), (-58.4, -34.6, 11, 0, 13),
@@ -779,7 +771,7 @@ def render(out_path):
             draw_card(draw, MX + c * (card_w + GUT), y + r * (card_h + 4),
                       card_w, card_h, st)
     y += 2 * card_h + 4
-    # ---- bottom row: map + MORE (7 items per column)
+    # ---- bottom row: map + MORE (4 items per column)
     bottom_h = 1024 - 76 - y - 4
     map_x1 = MX + 328
     draw.text((MX, y + 2), "WHERE IT HAPPENED", font=F_SANSB(14), fill=NAVY)
@@ -791,7 +783,7 @@ def render(out_path):
     for col in range(2):
         cx = lx + col * (col_w + GUT)
         my = y + 22
-        for item in MORE[col * 7:(col + 1) * 7]:
+        for item in MORE[col * 4:(col + 1) * 4]:
             lines = fit_lines(draw, "•  " + item, fmore, col_w, 2)
             for ln in lines:
                 draw.text((cx, my), ln, font=fmore, fill=INK)

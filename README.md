@@ -6,12 +6,13 @@
 
 One image that sums up the world's news of **Sunday 22 November 2026**:
 13 verified stories from 7 regions, a UTC timeline of the day, the day's
-five big numbers, a world map with every story pinned, 14 more stories,
+five big numbers, a world map with every story pinned, 8 more stories,
 and a DATE CHECK strip that keeps non-Sunday news out of the picture.
 
 ## The entry
 
-`entry.png` — 1024×1024 px, 227,423 bytes, drawn in this session by
+`entry.png` — 1024×1024 px, 216,750 bytes (sha256
+e0878d6653a3b2464b530d6b182335d21cb98465b9d9219ace2d8c89101af2d6), drawn in this session by
 `render.py` (Python + Pillow, build-time only) and copied to
 `/output/entry.png` by `main.py` (Python 3.13, standard library only).
 Two runs produce byte-identical output; the program uses no network.
@@ -38,7 +39,7 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out python3 main.py
 12. **LAHORE CHOKES AT 500 AQI** — The world's most polluted city tops 500 as smog grips Punjab. (Reported, 22 Nov)
 13. **INDIA 720/9 IN NZ** — Wellington. Record Test total on Kiwi soil: Rahul 136, Pant 128. (LiveScore, 22 Nov)
 
-Full sourcing, dates, and the 14 "MORE STORIES" briefs are in
+Full sourcing, dates, and the 8 "MORE STORIES" briefs are in
 [STORIES.md](STORIES.md).
 
 ## How it was checked

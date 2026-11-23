@@ -28,21 +28,33 @@ Oceania 1, World 1 — 13 stories, 7 regions.
 
 ## The day in UTC
 
-- 00:56 — ESA confirms BepiColombo in orbit
 - 00:00–02:30 — Drones strike Khartoum
-- ~12:30 — Nepal PM lands in Delhi
+- 00:56 — ESA confirms BepiColombo in orbit
+- ~09:45 — Nepal PM lands in Delhi (3:15 PM IST)
 - 16:30 — Liverpool v Man Utd kicks off
 - ~17:00 — COP31 talks end with no deal
 
-## More stories (14 briefs on the page)
+## More stories (8 briefs on the page)
 
-Sparta II still burning in the Gulf of Finland; FBI crime-database
-breach; Nottingham Forest 1–0 Hull; Dortmund 6–0 Leipzig; India–EU
-free-trade deal after 18 years; WHO names a new virus variant; 7.2
-Maluku quake; Australian dollar below 65 US cents; meteor shower peaks;
-FIFA confirms 2026 World Cup final in New York; Haiti blast deaths;
-Monash malaria vaccine trial; NZ house prices fall; UK's first
-driverless bus service in Edinburgh.
+1. Sparta II still smouldering in the Gulf of Finland, a day after a drone strike. — Reuters/CNN, 22 Nov 2026 (fire still smouldering Sunday; towing began Sunday; drone strike Saturday).
+2. Gaza: an IDF strike in the north leaves one person critically hurt. — 22 Nov 2026, published 16:19 UTC.
+3. Lebanon's army arrests three over 264 kg of explosives smuggled from Syria. — AFP, 22 Nov 2026 (seizure Saturday, announced Sunday).
+4. Poland reveals Russia twice tried to kill a Ukrainian-American rapper; Denmark expelled a Russian official. — AP, 22 Nov 2026 (Poland's disclosure Sunday; Denmark's expulsion Friday).
+5. New Zealand: one killed, four hurt as a house slips off its supports in Ruatōria. — New Zealand Police, 22 Nov 2026 (Sunday morning, Te Huinga Avenue).
+6. NFL Sunday: Cowboys 51–30 Titans; Panthers 35–33 Ravens. — Reuters, 22 Nov 2026.
+7. Football: Barcelona come back from 2–0 down to beat Villarreal 3–2. — Sportradar, 22 Nov 2026.
+8. Australia's dollar tipped to rebound against the Kiwi after its worst month since 2022. — Bloomberg, 22 Nov 2026 21:16 (analyst forecast).
+
+## Left out — not Sunday's news
+
+Yemen army 149/816 (announced Sat 21 Nov); UN killer-robot talks
+(concluded Sat 21 Nov); France's UN meeting request (Fri 20 Nov);
+Croatia protest (Sat evening 21 Nov); Haiti deaths (announced Fri
+20 Nov); Monash family-tree study (ScienceDaily 18 Nov); Wales–
+Australia rugby (Sat 21 Nov — and Australia won, not Wales);
+Columbus Crew 3–0 Inter Miami (Sat night); Newcastle–Arsenal 2–2
+(Sat 21 Nov). Each was checked against its primary source before
+being left out.
 
 ## DATE CHECK — not Sunday
 
